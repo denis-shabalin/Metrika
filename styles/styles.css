@@ -1,6 +1,7 @@
 body {
    font-family: 'Manrope', sans-serif;
    width: 100%;
+   margin: 0 auto;
    padding-top: 128px;
    font-weight: 400;
 }
@@ -113,13 +114,13 @@ body {
 /* Cекция услуг */
 .black_container {
    padding: 151px 0 150px;
+   width: 1400px;
    background-color: #121212;
    color: #FFFFFF;
 }
 .services {
    margin: 0 auto;
    width: 1150px;
-   box-sizing: border-box;
 }
 .services__card {
    margin-bottom: 60px;
@@ -129,6 +130,7 @@ body {
 }
 .services__card-img {
    margin-bottom: 15px;
+   width: 1150px;
    height: 270px;
 }
 .services__card-text {
