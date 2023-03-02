@@ -72,19 +72,19 @@ body {
 
 }
 
-.projects__list {
+.project__list {
    margin-bottom: 90px;
 }
-.projects__list-image {
+.project__list-image {
    margin-bottom: 15px;
 }
-.projects__list-title {
+.project__list-title {
    margin-bottom: 15px;
    font-size: 30px;
    line-height: 41px;
    letter-spacing: -0.03em;
 }
-.projects__list-info {
+.project__list-info {
    margin-bottom: 90px;
    font-size: 20px;
    line-height: 27px;
@@ -93,7 +93,7 @@ body {
    text-decoration: none;
 }
 
-.projects__click {
+.project__click {
    margin-bottom: 150px;
    display: block;
    text-align: center;
@@ -106,7 +106,7 @@ body {
    border-radius: 5px;
 }
 
-.projects__click:hover {
+.project__click:hover {
    color: #FFFFFF;
    background-color: #AD1818;
 }
@@ -118,22 +118,22 @@ body {
    background-color: #121212;
    color: #FFFFFF;
 }
-.services {
+.service {
    margin: 0 auto;
    width: 1150px;
 }
-.services__card {
+.service__card {
    margin-bottom: 60px;
 }
-.services__card:nth-last-child(1) {
+.service__card:nth-last-child(1) {
    margin-bottom: 0px;
 }
-.services__card-img {
+.service__card-img {
    margin-bottom: 15px;
    width: 1150px;
    height: 270px;
 }
-.services__card-text {
+.service__card-text {
    font-size: 30px;
    line-height: 41px;
    letter-spacing: -0.03em;
