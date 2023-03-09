@@ -162,7 +162,7 @@ body {
 }
 
 .container__bed {
-   background-image: url(./resources/bed-image.png);
+   background-image: url(../resources/bed-image.png);
    height: 717px;
    background-repeat: no-repeat;
    background-size: cover;
@@ -205,7 +205,7 @@ body {
    display: block;
    margin-bottom: 12px;
    margin-left: -5px;
-   background-image: url(/resources/phone-icon.png);
+   background-image: url(../resources/phone-icon.png);
    background-size: cover;
    background-repeat: no-repeat;
    background-position: 10%;   
