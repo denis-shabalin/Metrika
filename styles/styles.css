@@ -162,7 +162,7 @@ body {
 }
 
 .container__bed {
-   background-image: url(/resources/bed-image.png);
+   background-image: url(./resources/bed-image.png);
    height: 717px;
    background-repeat: no-repeat;
    background-size: cover;
