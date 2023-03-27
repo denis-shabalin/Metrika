@@ -3,13 +3,12 @@ html {
 }
 body {
    font-family: 'Manrope', sans-serif;
-   width: 100%;
    font-weight: 400;
    letter-spacing: -0.03em;
    background-color: #fff;
 }
-
 .container {
+   box-sizing: border-box;
    margin: 0 auto;
    width: 1150px;
 }
@@ -148,7 +147,8 @@ body {
    }
    .container {
       width: 100%;
-      padding: 0 13px 0 13px;
+      margin: 0 auto;
+      padding: 0 17px;
    }
    .description__img {
       width: 100%;
@@ -166,7 +166,7 @@ body {
       bottom: 30px;
    }
    .about__text {
-      max-width: 690px;
+      width: 100%;
       margin-bottom: 30px;
       font-size: 35px;
       line-height: 48px;
@@ -202,6 +202,11 @@ body {
       width: 96px;
       height: 16px;
    }
+   .container {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 13px;
+   }
    .description__img {
       height: 304px;
       width: 100%;
@@ -229,7 +234,6 @@ body {
       line-height: 19px;
    }
    .about__text {
-      max-width: 346px;
       margin-bottom: 30px;
       font-size: 22px;
       line-height: 30px;
