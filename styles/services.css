@@ -1,0 +1,155 @@
+/* Секция Услуг */
+
+.services {
+   background-color: #000000;
+}
+.services__title {
+   font-size: 18px;
+   line-height: 25px;
+   letter-spacing: -0.03em;
+   color: #FFFFFF;
+   margin-bottom: 30px;
+}
+.services__inner {
+   padding: 151px 0 150px;
+}
+.boxes-wrapper {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   row-gap: 85px;
+   margin-bottom: 106px;
+}
+
+.box {
+   position: relative;
+   width: calc(50% - 5.5px);
+}
+
+.box__img {
+   width: 100%;
+   margin-bottom: 25px;
+}
+.last-row {
+   margin-bottom: 14px;
+}
+
+.box__text {
+   font-size: 30px;
+   line-height: 41px;
+   letter-spacing: -0.03em;
+   color: #fff;
+}
+.box__price {
+   position: absolute;
+   left: 30px;
+   top: 31px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 213px;
+   height: 40px;
+   padding: 6px 19px;
+   border-radius: 5px;
+   background-color: #AD1818;
+}
+
+.box__price-item {
+   font-size: 22px;
+   line-height: 30px;
+   color: #fff;
+}
+
+.services__btn {
+   width: 100%;
+   padding: 56px 0;
+   background-color: #AD1818;
+   border-radius: 5px;
+
+   font-size: 31px;
+   line-height: 41px;
+   letter-spacing: -0.03em;
+   color: #FFFFFF;
+   border: none;
+   cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+   .services__inner {
+      padding-bottom: 120px;
+   }
+   .boxes-wrapper {
+      margin-bottom: 86px;
+   }
+   .box {
+      width: calc(50% - 5px);
+   }
+   .box__img {
+      margin-bottom: 15px;
+   }
+   .box__text {
+      font-size: 25px;
+      line-height: 34px;
+   }
+   .box__price {
+      top: 31px;
+      left: 32px;
+      padding: 6px 25px;
+   }
+   .box-last-row {
+      top: 34px;
+      padding-left: 23px;
+   }
+   .last-price {
+      top: 34px;
+      padding: 6px 28px;
+   }
+   .box__price-item {
+      font-size: 20px;
+      line-height: 27px;
+   }
+}
+
+@media (max-width: 767px) {
+   .services__title {
+      font-size: 14px;
+      line-height: 19px;
+      margin-bottom: 17px;
+   }
+   .services__inner {
+      padding: 80px 0;
+   }
+   .boxes-wrapper {
+      row-gap: 66px;
+      margin-bottom: 68px;
+   }
+   .box {
+      width: 100%;
+   }
+   .box__img {
+      height: 240px;
+      object-fit: cover;
+      margin-bottom: 8px;
+   }
+   .box__text {
+      font-size: 18px;
+      line-height: 25px;
+   }
+   .box__price {
+      height: 30px;
+      top: 23px;
+      left: 24px;
+   }
+   .box__price-item {
+      font-size: 14px;
+      line-height: 19px;
+   }
+   .services__btn {
+      height: 100px;
+      border-radius: 3.80172px;
+      padding: 37.07px 36.21px;
+
+      font-size: 22px;
+      line-height: 30px;
+   }
+}
