@@ -7,7 +7,7 @@
 
 .about__text {
    margin-bottom: 27px;
-   width: 1051px;
+   max-width: 1051px;
    font-size: 45px;
    line-height: 61.47px;
    letter-spacing: -0.028em;
@@ -29,7 +29,7 @@
 
 @media (max-width: 1199px) {
    .about__text {
-      width: 690px;
+      max-width: 690px;
       margin-bottom: 30px;
       font-size: 35px;
       line-height: 48px;
@@ -46,7 +46,7 @@
       line-height: 19px;
    }
    .about__text {
-      width: 346px;
+      max-width: 346px;
       margin-bottom: 30px;
       font-size: 22px;
       line-height: 30px;
