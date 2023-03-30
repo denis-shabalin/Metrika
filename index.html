@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initional-scale=1.0">
    <title>Метрика</title>
    <link rel="stylesheet" href="styles/reset.css">
 
@@ -9,8 +10,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet"> 
    <link rel="stylesheet" href="styles/styles.css">
-   <link type="image/png" sizes="16x16" rel="icon" href="resources/logo.svg">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link type="image/png" sizes="16x16" rel="icon" href="resources/logo.png">
 </head>
 <body>
    <header>
@@ -30,7 +30,7 @@
    <main>
       <section class="description">
          <div class="container">
-            <div class="description__inside">
+            <div class="description__inner">
                <div class="description__title">
                   Современные и стильные интерьеры для комфортной жизни
                </div>
@@ -44,7 +44,7 @@
       </section>
       <section class="about">
          <div class="container">
-            <div class="about__inside">
+            <div class="about__inner">
                <h2 id="about_us" class="about__title">О НАС</h2>
                <p class="about__text">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.
                </p>
@@ -54,12 +54,12 @@
       </section>
       <section class="projects">
          <div class="container">
-            <div class="projects__inside">
+            <div class="projects__inner">
                <h2 id="project" class="projects__title">ПРОЕКТЫ</h2>
                <ul  class="projects__list">
                   <li class="project__item">
                      <picture>
-                        <source media="(max-width: 767px)" srcset="resources/room-1-mobile.svg">
+                        <source media="(max-width: 500px)" srcset="resources/room-1-mobile.svg">
                         <source media="(max-width: 1184px)" srcset="resources/room-1-tablet.svg">
                         <img class="project__item-image" src="resources/room-1.png" alt="фото квартиры с панорамными окнами, красным диваном и гитарой">
                      </picture>
@@ -68,7 +68,7 @@
                   </li>
                   <li class="project__item">
                      <picture>
-                        <source media="(max-width: 767px)" srcset="resources/room-2-mobile.svg">
+                        <source media="(max-width: 500px)" srcset="resources/room-2-mobile.svg">
                         <source media="(max-width: 1199px)" srcset="resources/room-2-tablet.svg">
                         <img class="project__item-image" src="resources/room-2.jpg" alt="фото гостиной квартиры, с серым диваном, желтыми кофейными столиками">
                      </picture>
@@ -77,7 +77,7 @@
                   </li>
                   <li class="project__item">
                      <picture>
-                        <source media="(max-width: 767px)" srcset="resources/room-3-mobile.svg">
+                        <source media="(max-width: 500px)" srcset="resources/room-3-mobile.svg">
                         <source media="(max-width: 1199px)" srcset="resources/room-3-tablet.svg">
                         <img class="project__item-image" src="resources/room-3.jpg" alt="фото квартиры с обеденным столом, лестницей на второй этажи">
                      </picture>
@@ -89,6 +89,70 @@
             </div>
          </div>
       </section>
+      <section class="services">
+         <div class="container">
+            <div class="services__inner">
+               <h2 class="services__title">УСЛУГИ</h2>
+               <div class="boxes-wrapper">
+                  <div class="box">
+                     <div class="box__price">
+                        <p class="box__price-item">от 2500₽/м²</p>
+                     </div>
+                     <img src="resources/serv-1-desktop.svg" alt="" class="box__img">
+                     <p class="box__text">Планировочное решение</p>
+                  </div>
+                  <div class="box">
+                     <div class="box__price">
+                        <p class="box__price-item">от 3000₽/м²</p>
+                     </div>
+                     <img src="resources/serv-2-desktop.svg" alt="" class="box__img">
+                     <p class="box__text">Дизайн-проект</p>
+                  </div>
+                  <div class="box">
+                     <div class="box__price box-last-row">
+                        <p class="box__price-item">от 30 000₽/мес</p>
+                     </div>
+                     <img src="resources/serv-3-desktop.svg" alt="" class="box__img last-row">
+                     <p class="box__text">Авторский надзор</p>
+                  </div>
+                  <div class="box">
+                     <div class="box__price last-price">
+                        <p class="box__price-item">5% от стоимости</p>
+                     </div>
+                     <img src="resources/serv-4-desktop.svg" alt="" class="box__img last-row">
+                     <p class="box__text">Комплектация</p>
+                  </div>
+               </div>
+               <button class="services__btn">Заказать услугу</button>
+            </div>
+         </div>
+      </section>
+      <section class="reviews">
+         <div class="container">
+            <div class="reviews__inner">
+               <h2 class="reviews__title">ОТЗЫВЫ</h2>
+               <div class="reviews__wrapper">
+                  <div class="review-box">
+                     <h3 class="review-box__title">Ксения, проект 65 кв.м.</h3>
+                     <p class="review-box__text">Хочу искренне поблагодарить Вас за работу, проделанную на высоком уровне! Нам с мужем было очень приятно с Вами работать! Спасибо за Ваше умение правильно слышать пожелания своих клиентов и выполнять работу, которая превосходит все ожидания! Мы даже не надеялись, что на 34 кв.м. кто-то сможет нам грамотно разместить все, что мы хотим и даже больше!<br><br>Вам удалось это просто превосходно! Нам лишь осталось воплотить красоту, которую Вы нам создали в жизнь и поделиться с Вами результатом!
+                     </p>
+                  </div>
+                  <div class="review-box">
+                     <h3 class="review-box__title">Регина, проект 89 кв.м.</h3>
+                     <p class="review-box__text">Спасибо большое за такой классный проект! Все стильно, круто, продумано! Очень приятно было с вами работать! Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального для нас ремонта. Здорово, что мы нашли такого основательного, ответственного и внимательного к деталям дизайнера!
+                     <br><br>Хочется скорее реализовать проект и наслаждаться современной, функциональной и красивой квартирой! Будем рекомендовать Вас всем друзьям и знакомым!
+                     </p>
+                  </div>
+                  <div class="review-box">
+                     <h3 class="review-box__title">Яна, проект 120 кв.м.</h3>
+                     <p class="review-box__text">Хотелось бы сказать большое спасибо за проделанную работу! В задачу Марины входила разработка дизайн-проекта в минимальные сроки, и мне, конечно, не хотелось при этом потерять качество выполнения работы. Но волнения были напрасны: все вопросы решались оперативно, всегда предлагалось несколько вариантов решения, а также предоставлялись комментарии, какой способ решения будет более подходящим.<br><br>В итоге проект был сдан в оговоренный срок, и мне просто не терпится приступить к его реализации! Проект получился очень стильным и современным! Буду рекомендовать Вас тем, кому еще предстоит это непростое дело - ремонт!
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
    </main>
 </body>
 </html>
+
