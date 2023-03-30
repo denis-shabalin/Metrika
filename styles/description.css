@@ -19,7 +19,7 @@
 }
 
 .description__text {
-   width: 430px;
+   max-width: 430px;
    position: absolute;
    left: 40px;
    bottom: 40px;
@@ -64,7 +64,7 @@
       line-height: 32px;
    }
    .description__text {
-      width: 312px;
+      max-width: 312px;
       height: 88px;
       bottom: 15px;
       left: 15px;
