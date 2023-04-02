@@ -19,6 +19,12 @@ body {
    margin: 0 auto;
    width: 1150px;
 }
+.chapter {
+   margin-bottom: 30px;
+   font-size: 18px;
+   line-height: 25px;
+   letter-spacing: -0.03em;
+}
 @media (max-width: 1199px) {
    .container {
       width: 100%;
