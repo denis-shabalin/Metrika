@@ -1,11 +1,6 @@
 .reviews__inner {
    padding: 150px 0 157px;
 }
-.reviews__title {
-   font-size: 18px;
-   line-height: 25px;
-   margin-bottom: 30px;
-}
 .reviews__wrapper {
    display: flex;
    flex-wrap: wrap;
@@ -65,8 +60,6 @@
       padding: 80px 0;
    }
    .reviews__title {
-      font-size: 14px;
-      line-height: 19px;
       margin-bottom: 22px;
    }
    .reviews__wrapper {
