@@ -3,12 +3,8 @@
 .services {
    background-color: #000000;
 }
-.services__title {
-   font-size: 18px;
-   line-height: 25px;
-   letter-spacing: -0.03em;
-   color: #FFFFFF;
-   margin-bottom: 30px;
+.services h2 {
+   color: #fff;
 }
 .services__inner {
    padding: 151px 0 150px;
@@ -111,9 +107,7 @@
 }
 
 @media (max-width: 767px) {
-   .services__title {
-      font-size: 14px;
-      line-height: 19px;
+   .services h2 {
       margin-bottom: 17px;
    }
    .services__inner {
