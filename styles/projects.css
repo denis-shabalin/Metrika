@@ -1,11 +1,4 @@
 /* Секция проекты */
-
-.projects__title {
-   margin-bottom: 30px;
-   font-size: 18px;
-   line-height: 25px;
-   letter-spacing: -0.03em;
-}
 .project__item {
    margin-bottom: 90px;
 }
@@ -78,11 +71,6 @@
    }
    .project__item:last-child {
       margin-bottom: 60px;
-   }
-   .projects__title {
-      margin-bottom: 20px;
-      font-size: 14px;
-      line-height: 19px;
    }
    .project__item-image {
       margin-bottom: 18px;
