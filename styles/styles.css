@@ -36,4 +36,9 @@ body {
    .container {
       padding: 0 13px;
    }
+   .chapter {
+      margin-bottom: 20px;
+      font-size: 14px;
+      line-height: 19px;
+   }
 }
