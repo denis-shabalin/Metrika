@@ -55,7 +55,7 @@
       <section class="projects">
          <div class="container">
             <div class="projects__inner">
-               <h2 id="project" class="chapter">ПРОЕКТЫ</h2>
+               <h2 id="projects" class="chapter">ПРОЕКТЫ</h2>
                <ul  class="projects__list">
                   <li class="project__item">
                      <picture>
@@ -92,7 +92,7 @@
       <section class="services">
          <div class="container">
             <div class="services__inner">
-               <h2 class="chapter">УСЛУГИ</h2>
+               <h2 id="services" class="chapter">УСЛУГИ</h2>
                <div class="services__boxes">
                   <div class="box">
                      <div class="box__price">
@@ -152,6 +152,66 @@
             </div>
          </div>
       </section>
+      <section class="gallery-section">
+            <div class="gallery">
+               <div class="gallery__title-wrapper">
+                  <h2 class="gallery__title">ГАЛЕРЕЯ ПРОЕКТОВ</h2>
+               </div>
+               <div class="gallery__slides">
+                  <div class="gallery__slide gallery__slide_active">
+                     <img src="resources/forest-landscape.png" alt="большая, широкая кровать по середине комнаты" class="gallery__slide-image">
+                     <p class="gallery__slide-text">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+                  </div>
+                  <div class="gallery__slide">
+                     <img src="resources/lighthouse.png" alt="желтое кресло, подставка с цветами в графине и картина, висящая на стене" class="gallery__slide-image">
+                     <p class="gallery__slide-text">Проект гостиной в ЖК Маяк</p>
+                  </div>
+                  <div class="gallery__slide">
+                     <img src="resources/private-home.png" alt="гостиная в светло-белых тонах, с креслом ти диваном" class="gallery__slide-image">
+                     <p class="gallery__slide-text">Визуализация кухни-гостиной в частном доме</p>
+                  </div>
+                  <div class="gallery__slide">
+                     <img src="resources/north-wind.png" alt="кухня, сделанная в древесных цветах, шкаф с бокалами и тарелками" class="gallery__slide-image">
+                     <p class="gallery__slide-text">Проект кухни в скандинавском стиле для ЖК Северный Ветер</p>
+                  </div>
+               </div>
+               <div class="gallery__controls-wrapper">
+                  <div class="gallery__controls">
+                     <button class="gallery__control-prev arrow">
+                        <img src="resources/prev.png" alt="иконка стрелки, направленной влево">
+                     </button>
+                     <button class="gallery__control-next arrow">
+                        <img src="resources/next.png" alt="иконка стрелки, направленной вправо">
+                     </button>
+                  </div>
+               </div>
+            </div>
+      </section>
+      <section class="contacts">
+         <div class="container">
+            <div class="contacts__inner">
+               <h2 id="contacts" class="chapter">КОНТАКТЫ</h2>
+               <div class="contacts__wrapper">
+                  <a class="contact__block contact__block-phone" href="tel:+7 935 895-45-35">+7 935 895-45-35</a>
+                  <a class="contact__block contact__block-email" href="mailto:hello@mail.com">hello@mail.com</a>
+               </div>
+            </div>
+         </div>
+      </section>
    </main>
+   <footer>
+      <div class="container">
+         <div class="footer__inner">
+               <div class="nav">
+                  <a href="#about_us" class="nav-link">О НАС</a>
+                  <a href="#projects" class="nav-link">ПРОЕКТЫ</a>
+                  <a href="#services" class="nav-link">УСЛУГИ</a>
+                  <a href="#contacts" class="nav-link">КОНТАКТЫ</a>
+               </div>
+            <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
+         </div>
+      </div>
+   </footer>
+   <script src="gallery.js"></script>
 </body>
 </html>
