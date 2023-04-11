@@ -61,3 +61,21 @@
    line-height: 27px;
    color: #FFFFFF;
 }
+.input-list {
+   margin-bottom: 80px;
+}
+.input-list__item {
+   margin-bottom: 50px;
+}
+.input {
+   width: 100%;
+   box-sizing: border-box;
+   font-size: 25px;
+   line-height: 34px;
+   opacity: 0.5;
+   border: none;
+   border-bottom: 1px solid #000;
+}
+.input:focus {
+   outline: none;
+}
