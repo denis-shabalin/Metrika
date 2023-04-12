@@ -1,14 +1,18 @@
-.header {
+.header-inner {
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
    padding: 33px 0 70px;
 }
-.nav {
-   float: right;
+.header-nav {
+   display: flex;
+   gap: 60px;
 }
 .nav__link {
-   margin-left: 58px;
+   display: block;
    font-size: 18px;
    line-height: 25px;
-   text-align: center;
    text-decoration: none;
    color: #121212;
 }
@@ -16,19 +20,28 @@
    opacity: 0.5;
    border-bottom: 1px solid #000000;
 }
+.burger-btn {
+   display: none;
+}
 
 @media (max-width: 1199px) {
-   .header {
+   .header-inner {
       padding: 32.82px 0 70.76px;
    }
 }
 
 @media (max-width: 767px) {
-   .header {
+   .header-inner {
       padding: 31px 0 61px;
    }
    .logo {
       width: 96px;
       height: 16px;
+   }
+   .header-nav {
+      display: none;
+   }
+   .burger-btn {
+      display: block;
    }
 }
