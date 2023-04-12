@@ -20,13 +20,14 @@
    opacity: 0.5;
    border-bottom: 1px solid #000000;
 }
-.burger-btn {
-   display: none;
-}
+
 
 @media (max-width: 1199px) {
    .header-inner {
       padding: 32.82px 0 70.76px;
+   }
+   .header-nav {
+      display: none;
    }
 }
 
@@ -38,10 +39,5 @@
       width: 96px;
       height: 16px;
    }
-   .header-nav {
-      display: none;
-   }
-   .burger-btn {
-      display: block;
-   }
+   
 }
