@@ -5,8 +5,13 @@
    align-items: center;
    padding: 33px 0 70px;
 }
+.logo {
+   width: 127px;
+   height: 21.5px;
+}
 .header-nav {
    display: flex;
+   height: 25px;
    gap: 60px;
 }
 .nav__link {

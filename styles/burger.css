@@ -24,6 +24,7 @@
    height: 100%;
    padding: 80px 30px 0;
    background-color: #FFFFFF;
+   overflow-y: auto;
 }
 .burger__logo {
    margin-bottom: 50px;

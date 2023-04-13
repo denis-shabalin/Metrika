@@ -54,7 +54,6 @@
    border: none;
    border-radius: 5px;
    padding: 20px 0 20px;
-   cursor: pointer;
 
    font-size: 20px;
    line-height: 27px;
@@ -78,9 +77,7 @@
 .input:focus {
    outline: none;
 }
-@media (max-width: 767px) {
 
-}
 @media (max-width: 767px) {
    .popup__content {
       width: 100%;
