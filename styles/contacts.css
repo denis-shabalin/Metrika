@@ -56,7 +56,7 @@
 
 @media (max-width: 1199px) {
    .contacts__inner {
-      padding: 120px 0 80px;
+      padding: 120px 0;
    }
    .contacts__wrapper {
       column-gap: 117px;

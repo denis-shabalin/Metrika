@@ -1,3 +1,6 @@
+.header-inner {
+   position: relative;
+}
 .burger-btn {
    display: none;
 }
@@ -57,16 +60,53 @@
    .burger-btn {
       position: absolute;
       top: 30px;
-      right: 15px;
+      right: 0px;
       z-index: 100;
       display: block;
-      width: 34px;
-      height: 34px;
-      background-image: url(../resources/burger-icon-mobile.png);
-      background-repeat: no-repeat;
+      width: 50px;
+      height: 2px;
+      background-color: #000;
+      transition: all 0.5s ease;
+   }
+   .burger-btn::after {
+      content: '';
+      position: absolute;
+      top: 6px;
+      right: 0px;
+      display: block;
+      width: 31px;
+      height: 2px;
+      background-color: #000;
+      transition: all 0.5s ease;
    }
    .burger-btn_open {
-      background-image: url(../resources/header-close-icon.png);
+      transform: rotate(-45deg);
+      width: 31px;
    }
-   
+   .burger-btn_open::after {
+      transform: rotate(90deg) translate(-6px, 0);
+   } 
+}
+@media (max-width: 768px) {
+   .burger-btn {
+      top: 37px;
+      width: 38px;
+      height: 1.5px;
+      background-color: #000;
+      transition: all 0.5s ease;
+   }
+   .burger-btn::after {
+      top: 4px;
+      width: 24px;
+      height: 1.5px;
+      background-color: #000;
+      transition: all 0.5s ease;
+   }
+   .burger-btn_open {
+      transform: rotate(-45deg);
+      width: 24px;
+   }
+   .burger-btn_open::after {
+      transform: rotate(90deg) translate(-4px, 0);
+   } 
 }

@@ -6,7 +6,7 @@ footer {
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   padding: 60px 0 30px;
+   padding: 56px 0 30px;
 }
 .nav {
    display: flex;
@@ -33,6 +33,11 @@ footer {
    opacity: 0.5;
 }
 
+@media (max-width: 1199px) {
+   .footer__inner {
+      padding-top: 60px;
+   }
+}
 
 @media (max-width: 767px) {
    .footer__inner {

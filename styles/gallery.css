@@ -48,7 +48,7 @@
 }
 .gallery__slide-wrapper {
    position: absolute;
-   top: 575px;
+   top: 570px;
    left: 0px;
    width: 100%;
 }
@@ -62,7 +62,7 @@
 .gallery__controls-wrapper {
    position: absolute;
    left: 0px;
-   bottom: 162px;
+   bottom: 165px;
    width: 100%;
 }
 .gallery__controls {

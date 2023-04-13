@@ -13,8 +13,8 @@
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-   row-gap: 85px;
-   margin-bottom: 106px;
+   row-gap: 80px;
+   margin-bottom: 100px;
 }
 
 .box {
@@ -27,7 +27,7 @@
    margin-bottom: 25px;
 }
 .last-row {
-   margin-bottom: 14px;
+   margin-bottom: 20px;
 }
 
 .box__text {
@@ -74,7 +74,7 @@
       padding-bottom: 120px;
    }
    .services__boxes {
-      margin-bottom: 86px;
+      margin-bottom: 78px;
    }
    .box {
       width: calc(50% - 5px);
@@ -107,14 +107,14 @@
 
 @media (max-width: 767px) {
    .services h2 {
-      margin-bottom: 17px;
+      margin-bottom: 18px;
    }
    .services__inner {
       padding: 80px 0;
    }
    .services__boxes {
-      row-gap: 66px;
-      margin-bottom: 68px;
+      row-gap: 60px;
+      margin-bottom: 60px;
    }
    .box {
       width: 100%;
@@ -122,7 +122,7 @@
    .box__img {
       height: 240px;
       object-fit: cover;
-      margin-bottom: 8px;
+      margin-bottom: 7px;
    }
    .box__text {
       font-size: 18px;

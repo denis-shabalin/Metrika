@@ -29,7 +29,7 @@
 
 @media (max-width: 1199px) {
    .reviews__inner {
-      padding: 117px 0 120px;
+      padding: 120px 0;
    }
    .reviews__wrapper {
       justify-content: space-between;
