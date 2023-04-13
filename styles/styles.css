@@ -19,6 +19,9 @@ body {
    letter-spacing: -0.03em;
    background-color: #fff;
 }
+/* .body_fixed {
+   overflow: hidden;
+} */
 .container {
    box-sizing: border-box;
    margin: 0 auto;

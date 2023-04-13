@@ -136,6 +136,7 @@
    .gallery__slide-text {
       font-size: 19px;
       line-height: 26px;
+      max-width: 285px;
    }
    .gallery__controls-wrapper {
       width: 100%;
