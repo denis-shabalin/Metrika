@@ -29,8 +29,10 @@
    background-color: #FFFFFF;
    overflow-y: auto;
 }
-.burger__logo {
+.burger__logo-img {
    margin-bottom: 50px;
+   width: 156px;
+   height: 26px;
 }
 .burger-nav {
    display: flex;
