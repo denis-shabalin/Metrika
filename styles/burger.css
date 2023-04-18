@@ -46,14 +46,20 @@
    text-decoration: none;
    color: #121212;
 }
+.burger__contacts {
+   display: flex;
+   flex-direction: column;
+   gap: 17px;
+}
 .burger__text {
+   margin-bottom: 17px;
    font-size: 16px;
    line-height: 22px;
    opacity: 0.5;
 }
-.burger__contact {
+.burger__contact-link {
    font-size: 20px;
-   line-height: 35px;
+   line-height: 20px;
    color: #121212;
    text-decoration: none;
 }
@@ -97,6 +103,13 @@
    }
 }
 @media (max-width: 768px) {
+   .burger-btn {
+      top: 5px;
+   }
+   .burger-btn_open {
+      top: 20px;
+      right: 20px;
+   }
    .burger-btn::before {
       width: 38px;
       height: 1.5px;
