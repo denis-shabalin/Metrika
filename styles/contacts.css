@@ -78,7 +78,7 @@
       margin-bottom: 20px;
    }
    .contacts__wrapper {
-      flex-direction: row;
+      flex-direction: column;
       row-gap: 20px;
    }
    .contact-box {

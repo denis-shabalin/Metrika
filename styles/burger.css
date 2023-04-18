@@ -48,8 +48,8 @@
 }
 .burger__contacts {
    display: flex;
-   flex-direction: column;
-   gap: 17px;
+   flex-direction: row;
+   row-gap: 17px;
 }
 .burger__text {
    margin-bottom: 17px;
