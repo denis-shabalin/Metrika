@@ -97,10 +97,6 @@
    }
 }
 @media (max-width: 768px) {
-   .burger-btn {
-      height: 17px;
-      top: 4px;
-   }
    .burger-btn::before {
       width: 38px;
       height: 1.5px;
