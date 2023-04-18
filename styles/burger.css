@@ -48,7 +48,7 @@
 }
 .burger__contacts {
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    row-gap: 17px;
 }
 .burger__text {
